@@ -1,0 +1,160 @@
+.about{
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 0px;
+}
+
+.about-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.about-left-head h3{
+    color: #0e1133;
+    font-family: 'Roboto';
+    font-size: 52px;
+    line-height: 40px;
+    font-weight: 900;
+}
+
+.about-sub-head{
+    color: #0e1133e0;
+    font-family: 'Roboto';
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.about-left-desc{
+    color: #505056;
+    font-family: 'roboto';
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.about-right{
+    text-align: center;
+}
+
+.about-left{
+    align-self: center;
+}
+
+.about-right img{
+    width: 80%;
+}
+
+.mission{
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 90px;
+}
+
+.mission-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mission-head h3{
+    color: #0e1133;
+    font-family: 'Roboto';
+    font-size: 52px;
+    line-height: 40px;
+    font-weight: 900;
+}
+
+.mission-desc{
+    color: #505056;
+    font-family: 'roboto';
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.mission-number{
+    margin-top: 80px;
+}
+
+.mission-number-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.mission1{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    gap: 30px;
+}
+
+.mission-left{
+    align-self: center;
+}
+
+.mission-left h2{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 170px;
+    line-height: 0px;
+    color: #2c234d;
+}
+
+.mission-right-head h3{
+    color: #0e1133;
+    font-family: 'Roboto';
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+}
+
+.mission-right-desc{
+    color: #505056;
+    font-family: 'roboto';
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .about-container{
+        grid-template-columns: 1fr;
+    }
+    
+    .about-right img{
+        display: none;
+    }
+
+    .mission-number-container{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .mission1{
+        grid-template-columns: 1fr 10fr;
+    }
+                
+}
+
+@media screen and (max-width: 400px) {
+    .mission-number-container{
+        grid-template-columns: 1fr;
+    }
+    .mission1{
+        margin-bottom: 20px;
+    }
+}
