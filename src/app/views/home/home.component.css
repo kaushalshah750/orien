@@ -134,3 +134,97 @@
 .service-km-container:hover h3{
     color: #2B70FA;
 }
+
+/* Start of Get in Touch */
+
+.git{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #F7F6FA;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.git-container{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.git-box-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.git-box-container{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.git-box-icon{
+    align-self: center;
+}
+
+.git-box{
+    padding: 30px;
+}
+
+.git-head{
+    animation-name: blink;
+    animation-duration: 2s;  
+}
+
+@keyframes blink {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+.git-head h3{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 24px;
+    text-align: center;
+    color: #2c234d;
+}
+
+.git-head h3::before,
+.git-head h3::after {
+    display: inline-block;
+    content: "";
+    border-top: 2.012px solid black;
+    width: 30px;
+    margin: 0 7.5px;
+    transform: translateY(-7.5px);
+}
+
+
+
+.git-desc{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #686875;
+    margin-top: 15px;
+}
+
+.git-box-head{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2c234d;
+}
+
+.git-box-desc{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #686875;
+}
