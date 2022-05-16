@@ -1,0 +1,87 @@
+.hero{
+    width: 100%;
+    height: 90vh;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hero-container{
+    width: 100%;
+    height: 90vh;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    /* justify-items: center; */
+}
+
+.hero-left{
+    justify-self: center;
+    align-self: center;
+}
+.hero-right{
+    display: block;
+    align-self: center;
+    justify-self: center;
+}
+
+.hero-left h4{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: #2B70FA;
+}
+
+.hero-left h2{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 70px;
+    margin-top: 10px;
+    color: #0e1133;
+}
+
+.hero-left p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #505056;
+    margin-top: 10px;
+}
+
+.hero-button a{
+    text-decoration: none;
+}
+
+.hero-button{
+    margin-top: 20px;
+    background-color: #0e1133;
+    width: fit-content;
+    border-radius: 5px;
+    border: 3px solid #0e1133;
+    transition: all 0.4s;
+}
+
+.hero-button h3{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 60px; */
+    color: #ffffff;
+}
+
+.hero-button:hover{
+    background-color: #ffffff;
+    border: 3px solid #0e1133;
+}
+
+.hero-button:hover h3{
+    color: #0e1133;
+}
