@@ -30,3 +30,11 @@
 .pointer{
     cursor: pointer;
 }
+
+.a-link{
+    text-decoration: none;
+}
+
+.active{
+    color: #2B70FA !important;
+}

@@ -1,0 +1,197 @@
+/* Start of Get in Touch Contact Page */
+
+.git-box-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 5px;
+}
+.git-box-container{
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.git-box-icon{
+    align-self: center;
+}
+
+.git-box{
+    padding: 30px;
+}
+
+.git-box-head{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2c234d;
+}
+
+.git-box-desc{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #686875;
+}
+
+
+
+.contact-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+
+.git-box-max-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.contact-git{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #F7F6FA;
+}
+
+
+.contact-left{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.contact-right{
+    align-self: center;
+}
+
+.contact-left img{
+    width: 90%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-right: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f5f7f5;
+}
+
+input::placeholder {
+    color: #7e7c87;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+textarea::placeholder {
+    color: #7e7c87;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+input[type=number], select, textarea {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f5f7f5;
+  }
+  
+input[type=submit] {
+    background-color: #2B70FA;
+    border: 2px solid #2B70FA;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.4s;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 13px;
+}
+  
+input[type=submit]:hover {
+    border: 2px solid #2B70FA;
+    background-color: #ffffff;
+    color: #2B70FA;
+}
+  
+.container {
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contact-page{
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 20px;
+    }
+    .contact-left{
+        display: none;
+    }
+    footer{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        padding: 10px;
+    }
+
+    .contact-left{
+        display: none;
+    }
+
+    footer{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .contact-git{
+        padding-top: 50px;
+    }
+    
+    .git-box{
+        margin-top: -20px;
+    }
+    
+}
+
+/* End of Get in Touch Contact Page */

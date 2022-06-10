@@ -1,0 +1,5 @@
+Number of pages: Single Page
+Instruction provided: Image file which needs to be converted in HTML.
+Self Made Changes:
+
+1 - In the footer the menu was very big which was not able to fit in the screen of tablet and mobile so i removed the footer menu on mobile and tablet to make it look nice then before.

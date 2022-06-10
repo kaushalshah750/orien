@@ -12,6 +12,7 @@ import { HeroComponent } from './component/hero/hero.component';
 import { ServiceComponent } from './views/service/service.component';
 import { ContactComponent } from './views/contact/contact.component';
 import { AchievementCtaComponent } from './component/achievement-cta/achievement-cta.component';
+import { PortfolioComponent } from './views/portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AchievementCtaComponent } from './component/achievement-cta/achievement
     HeroComponent,
     ServiceComponent,
     ContactComponent,
-    AchievementCtaComponent
+    AchievementCtaComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
